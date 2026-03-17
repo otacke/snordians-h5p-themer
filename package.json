@@ -1,0 +1,24 @@
+{
+  "name": "h5p-themer",
+  "version": "0.0.1",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --mode=production",
+    "watch": "webpack --mode=development --watch"
+  },
+  "keywords": [
+    "H5P",
+    "Theme"
+  ],
+  "author": "OLiver Tacke",
+  "license": "MIT",
+  "type": "module",
+  "dependencies": {
+    "h5p-theme-picker": "^0.0.4"
+  },
+  "devDependencies": {
+    "webpack": "^5.105.4",
+    "webpack-cli": "^7.0.1"
+  },
+  "browserslist": "> 0.5%, last 3 versions, Firefox ESR, not dead"
+}
