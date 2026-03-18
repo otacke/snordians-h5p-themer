@@ -14,7 +14,7 @@
   "license": "MIT",
   "type": "module",
   "dependencies": {
-    "h5p-theme-picker": "^0.0.5"
+    "h5p-theme-picker": "^0.0.6"
   },
   "devDependencies": {
     "webpack": "^5.105.4",
