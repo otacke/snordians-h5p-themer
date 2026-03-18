@@ -18,7 +18,7 @@ namespace Snordian\H5PThemer;
 defined( 'ABSPATH' ) || die( 'No script kiddies please!' );
 
 if ( ! defined( 'SNORDIANSH5PTHEMER_VERSION' ) ) {
-	define( 'SNORDIANSH5PTHEMER_VERSION', '0.0.1' );
+	define( 'SNORDIANSH5PTHEMER_VERSION', '0.0.3' );
 }
 
 require_once join( DIRECTORY_SEPARATOR, array( __DIR__, 'includes', 'class-capabilities.php' ) );
