@@ -1,6 +1,5 @@
 {
   "name": "h5p-themer",
-  "version": "0.0.1",
   "main": "index.js",
   "scripts": {
     "build": "webpack --mode=production",
