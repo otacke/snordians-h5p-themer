@@ -8,7 +8,6 @@ const __dirname = dirname(__filename);
 const mode = process.argv.includes('--mode=production') ?
   'production' :
   'development';
-const libraryName = process.env.npm_package_name;
 
 export default {
   mode: mode,
