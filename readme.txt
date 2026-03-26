@@ -2,6 +2,7 @@
 Contributors: otacke
 Tags: h5p, theme
 Requires at least: 6.5
+Requires PHP: 8.0
 Tested up to: 6.9
 Stable tag: 0.0.4
 License: MIT

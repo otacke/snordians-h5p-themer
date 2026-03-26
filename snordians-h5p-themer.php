@@ -6,6 +6,7 @@
  * Description: Use H5P's theming capabilities that the H5P plugin denies to offer
  * Version: 0.0.4
  * Requires at least: 6.5
+ * Requires PHP: 8.0
  * Author: Oliver Tacke (SNORDIAN)
  * Author URI: https://snordian.de
  * License: MIT
