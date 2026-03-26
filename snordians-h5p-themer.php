@@ -103,7 +103,7 @@ function on_uninstall() {
 function h5p_themer_alter_scripts( &$scripts ) {
 	$scripts[] = (object) array(
 		'path'    => plugin_dir_url( __FILE__ ) . 'h5p-themer-config.js',
-		'version' => '?ver=' . SNORDIANSH5PTHEMER_VERSION,
+		'version' => '?buster=' . uniqid(),
 	);
 	$scripts[] = (object) array(
 		'path'    => plugin_dir_url( __FILE__ ) . 'js/h5p-themer.js',
