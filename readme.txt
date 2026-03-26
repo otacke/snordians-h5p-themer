@@ -3,7 +3,7 @@ Contributors: otacke
 Tags: h5p, theme
 Requires at least: 6.5
 Tested up to: 6.9
-Stable tag: 0.0.3
+Stable tag: 0.0.4
 License: MIT
 License URI: https://github.com/otacke/snordians-h5p-themer/blob/master/LICENSE
 

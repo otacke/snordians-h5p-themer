@@ -4,7 +4,7 @@
  * Plugin URI: https://github.com/otacke/snordians-h5p-themer
  * Text Domain: snordians-h5p-themer
  * Description: Use H5P's theming capabilities that the H5P plugin denies to offer
- * Version: 0.0.3
+ * Version: 0.0.4
  * Requires at least: 6.5
  * Author: Oliver Tacke (SNORDIAN)
  * Author URI: https://snordian.de
@@ -19,7 +19,7 @@ namespace Snordian\H5PThemer;
 defined( 'ABSPATH' ) || die( 'No script kiddies please!' );
 
 if ( ! defined( 'SNORDIANSH5PTHEMER_VERSION' ) ) {
-	define( 'SNORDIANSH5PTHEMER_VERSION', '0.0.3' );
+	define( 'SNORDIANSH5PTHEMER_VERSION', '0.0.4' );
 }
 
 require_once join( DIRECTORY_SEPARATOR, array( __DIR__, 'includes', 'class-capabilities.php' ) );
