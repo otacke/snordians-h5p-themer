@@ -4,7 +4,7 @@
  * Plugin URI: https://github.com/otacke/snordians-h5p-themer
  * Text Domain: snordians-h5p-themer
  * Description: Use H5P's theming capabilities that the H5P plugin denies to offer
- * Version: 0.0.4
+ * Version: 0.0.5
  * Requires at least: 6.5
  * Requires PHP: 8.0
  * Author: Oliver Tacke (SNORDIAN)
