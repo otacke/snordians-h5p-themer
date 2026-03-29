@@ -33,8 +33,8 @@ require_once join( DIRECTORY_SEPARATOR, array( __DIR__, 'includes', 'class-optio
  * @return object Main.
  */
 function init() {
-	// Does NOT work if omitted locally - is this a chicken and egg problem? Needs to be on wordpress.org?
-    // phpcs:ignore PluginCheck.CodeAnalysis.DiscouragedFunctions.load_plugin_textdomainFound
+	// I prefer to keep load_plugin_textdomain, so this works without access to wordpress.org, too.
+  // phpcs:ignore PluginCheck.CodeAnalysis.DiscouragedFunctions.load_plugin_textdomainFound
 	load_plugin_textdomain(
 		'snordians-h5p-themer',
 		false,
