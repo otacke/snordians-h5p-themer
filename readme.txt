@@ -4,7 +4,7 @@ Tags: h5p, theme
 Requires at least: 6.5
 Requires PHP: 8.0
 Tested up to: 6.9
-Stable tag: 0.0.7
+Stable tag: 0.0.8
 License: MIT
 License URI: https://github.com/otacke/snordians-h5p-themer/blob/master/LICENSE
 
