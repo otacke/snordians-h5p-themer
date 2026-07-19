@@ -7,6 +7,15 @@ import 'h5p-theme-picker';
     return;
   }
 
+  let customColorFallback;
+  const customColorValuesField = document.querySelector('#custom_color_options');
+  if (!customColorValuesField) {
+    console.warn('Custom color values field not found');
+  }
+  else {
+    customColorFallback = customColorValuesField.value;
+  }
+
   const picker = document.querySelector('h5p-theme-picker');
   if (!picker) {
     console.error('H5P Theme Picker not found');
@@ -24,5 +33,13 @@ import 'h5p-theme-picker';
     }
 
     pickerValuesField.value = jsonString;
+    if (customColorValuesField) {
+      if (themeValues.theme === 'custom') {
+        customColorValuesField.value = jsonString;
+      }
+      else {
+        customColorValuesField.value = customColorFallback;
+      }
+    }
   });
 })();

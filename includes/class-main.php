@@ -51,7 +51,7 @@ class Main {
 			$decoded     = json_decode( $json_string, true );
 
 			if ( JSON_ERROR_NONE !== json_last_error() || ! is_array( $decoded ) ) {
-					return;
+				return;
 			}
 
 			$density = isset( $decoded['data']['density'] ) ? (string) $decoded['data']['density'] : '';

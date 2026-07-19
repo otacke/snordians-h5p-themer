@@ -45,7 +45,34 @@ function init() {
 		return;
 	}
 
-	return new Main();
+	$main = new Main();
+
+	update();
+
+	return $main;
+}
+
+/**
+ * Update.
+ */
+function update() {
+	$installed_version = Options::get_version();
+
+	if ( SNORDIANSH5PTHEMER_VERSION === $installed_version ) {
+		return;
+	}
+
+	if ( version_compare( $installed_version, '0.0.13', '<' ) ) {
+		$picker_options = Options::get_theme_picker();
+		if ( '' !== $picker_options ) {
+			$parsed = json_decode( $picker_options, true );
+			if ( JSON_ERROR_NONE === json_last_error() && is_array( $parsed ) && 'custom' === ( $parsed['theme'] ?? '' ) ) {
+				Options::set_custom_color_options( $picker_options );
+			}
+		}
+	}
+
+	Options::set_version( SNORDIANSH5PTHEMER_VERSION );
 }
 
 /**
